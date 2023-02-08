@@ -1,0 +1,32 @@
+.amap {
+  .el-select-dropdown__item {
+    height: auto;
+    line-height: normal;
+    padding: 5px;
+    & p:last-child {
+      color: var(--el-text-color-secondary);
+    }
+    &.selected p:last-child {
+      color: var(--el-color-primary);
+      font-weight: 700;
+    }
+  }
+}
+
+.el-input .el-input__wrapper {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.el-button {
+  height: auto;
+  min-height: 100%;
+}
+
+.el-tag {
+  border: none;
+}
+
+.el-message {
+  z-index: 9999 !important;
+}
